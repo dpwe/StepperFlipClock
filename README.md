@@ -1,6 +1,6 @@
 # StepperFlipClock
 
-<img alt="Copal retrofit components" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_mechanism.png" width=300 height=200>
+<img alt="Copal retrofit components" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_retrofit.png" width=300 height=200>
 
 Design and firmware for a stepper motor retrofit to the often-failed AC synchronous flip clock motors.
 

@@ -30,5 +30,9 @@ This is the Fritzing source for the hardware setup for the stepper clock.  It's 
 
 Directory containing the STL files I used for 3D printing pinion gears to mate the stepper motors with the flip clock mechanism.  `copol_pinion_1` works for the plastic-framed Copal mechanims.  `copol_pinion_2` attempted to scale down the teeth for the older, metal-framed mechanisms, but was a bit beyond the scale capabilities of the printing technology.  `copol_pinion_4b` converts the 5mm stepper shaft to the 2mm shaft on the original Copal motors, so you can take the small final gear off the early Copal motors and mount it on this 3D printed adapter.
 
+# Gallery
+
+In addition to the GE 7-4305 illustrated at the top of this page, I've also performed this retrofit on a Copal 227 which has much less space inside.  For this job, the power cord is replaced by a USB cord that plugs into an external USB power adapter at the mains plug.
+
 <img alt="Copal - assembled" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_assembled.jpg" width=300 height=200> <img alt="Copal - back off" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_backoff.jpg" width=300 height=200> <img alt="Copal - mechanism" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_mechanism.jpg" width=300 height=200>
 

@@ -1,6 +1,6 @@
 # StepperFlipClock
 
-<img alt="Copal - assembled" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_assembled.jpg" width=300 height=200> <img alt="Copal - back off" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_backoff.jpg" width=300 height=200> <img alt="Copal - mechanism" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_mechanism.jpg" width=300 height=200>
+<img alt="Copal retrofit components" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_mechanism.png" width=300 height=200>
 
 Design and firmware for a stepper motor retrofit to the often-failed AC synchronous flip clock motors.
 
@@ -27,3 +27,6 @@ This is the Fritzing source for the hardware setup for the stepper clock.  It's 
 # 3Dprint
 
 Directory containing the STL files I used for 3D printing pinion gears to mate the stepper motors with the flip clock mechanism.  `copol_pinion_1` works for the plastic-framed Copal mechanims.  `copol_pinion_2` attempted to scale down the teeth for the older, metal-framed mechanisms, but was a bit beyond the scale capabilities of the printing technology.  `copol_pinion_4b` converts the 5mm stepper shaft to the 2mm shaft on the original Copal motors, so you can take the small final gear off the early Copal motors and mount it on this 3D printed adapter.
+
+<img alt="Copal - assembled" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_assembled.jpg" width=300 height=200> <img alt="Copal - back off" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_backoff.jpg" width=300 height=200> <img alt="Copal - mechanism" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_mechanism.jpg" width=300 height=200>
+

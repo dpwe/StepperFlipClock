@@ -12,3 +12,13 @@ At the same time, cheap and precise stepper motors of similar size and shape *ar
 
 This repo provides the resources for my investigations into stepper motor retrofit replacements for the original Copal synchronous motors found in the flip clocks made by GE (and Copal) in the eary 1970s.  I include the electronics design, the firmware (as Arduino sketches), and some pictures of a couple of finished clock conversions.
 
+# BurstClockSerial
+
+This version of the firmware winds on the flip mechanism in "bursts", once per minute.  This makes sure the flaps fall within a fraction of a second of the actual minute change; a regular flip mechanism typically has a variation of +/- 10 sec or more for any particular minute due to mechanical variations in the flaps.
+
+The code has settings for two variations of the Copal mechanism, one with 60 teeth per hour on the main wheel (as found in GE clock-radios such as the 7-4305), and one with 50 teeth per hour (as in the Copal 227 alarm clock).
+
+# StepperClockCopal.fzz
+
+This is the Fritzing source for the hardware setup for the stepper clock.  It's mainly the wiring diagram that I've tried to make legible, although the schematic should be correct also.  It shows which Arduino pins are connected to which pins on the DS3231 RTC board, on the ULN2003A stepper driver board, as well as other hardware including the frontlight LED, the piezo buzzer, and the alarm microswitch.
+

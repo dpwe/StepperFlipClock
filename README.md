@@ -1,5 +1,9 @@
 # StepperFlipClock
 
+![picture](https://raw.githubusercontent.com/dpwe/StepperFlipClock/pics/copal_assembled.jpg)
+![picture](https://raw.githubusercontent.com/dpwe/StepperFlipClock/pics/copal_backoff.jpg)
+![picture](https://raw.githubusercontent.com/dpwe/StepperFlipClock/pics/copal_mechanism.jpg)
+
 Design and firmware for a stepper motor retrofit to the often-failed AC synchronous flip clock motors.
 
 Flip clocks, perhaps most iconic from the repeating opening sequence of the movie Groundhog Day, are delightful mechanisms for rendering the time as digits by flipping through a set of leaves on a rotating drum like a rolodex.

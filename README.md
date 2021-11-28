@@ -24,3 +24,6 @@ The code has settings for two variations of the Copal mechanism, one with 60 tee
 
 This is the Fritzing source for the hardware setup for the stepper clock.  It's mainly the wiring diagram that I've tried to make legible, although the schematic should be correct also.  It shows which Arduino pins are connected to which pins on the DS3231 RTC board, on the ULN2003A stepper driver board, as well as other hardware including the frontlight LED, the piezo buzzer, and the alarm microswitch.
 
+# 3Dprint
+
+Directory containing the STL files I used for 3D printing pinion gears to mate the stepper motors with the flip clock mechanism.  `copol_pinion_1` works for the plastic-framed Copal mechanims.  `copol_pinion_2` attempted to scale down the teeth for the older, metal-framed mechanisms, but was a bit beyond the scale capabilities of the printing technology.  `copol_pinion_4b` converts the 5mm stepper shaft to the 2mm shaft on the original Copal motors, so you can take the small final gear off the early Copal motors and mount it on this 3D printed adapter.

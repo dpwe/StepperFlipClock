@@ -37,7 +37,7 @@
 #define STEPS_PER_CYCLE 1280
 #define MINUTES_PER_CYCLE 9
 
-#include <Tone.h>
+#include <Tone.h>  // https://github.com/bhagman/Tone
 Tone tone_out[2];  // Allocate two timers so we can *not* use tone_out[0],
                    // which tries to use Timer2 (but we have other plans).
 
@@ -549,7 +549,12 @@ void RTC_update(void) {
   breakTime(now_local(), tm);
   int time_mins = tm.Hour * 60 + tm.Minute;
   if (time_mins != last_time_mins) {
+    Serial.print("Ard: ");
     serial_print_tm(tm);
+    // Let's see how we're doing relative to the RTC.
+    Serial.print("RTC: ");
+    breakTime(RTC_utc_get(), tm);
+    serial_print_tm(tm);    
     // Advance the flip display.
     if (enable_rtc_updates) {
       move_to_time(time_mins);

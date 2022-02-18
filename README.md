@@ -20,6 +20,10 @@ This version of the firmware winds on the flip mechanism in "bursts", once per m
 
 The code has settings for two variations of the Copal mechanism, one with 60 teeth per hour on the main wheel (as found in GE clock-radios such as the 7-4305), and one with 50 teeth per hour (as in the Copal 227 alarm clock).
 
+# synchronizer_nano
+
+This sketch can be run on the same Arduino Nano that is driving the clock, but allows you to synchronize the DS3231 RTC chip to a time reference from a GPS.  You do this once, setting both the time and trimming the DS3231 to the GPS 1 second period, then you can re-run the BurstClockSerial to drive the clock.  To sync to GPS, you have to connect the GPS 1PPS signal to D2, and the GPS NMEA output to D8.
+
 # StepperClockCopal.fzz
 
 This is the Fritzing source for the hardware setup for the stepper clock.  It's mainly the wiring diagram that I've tried to make legible, although the schematic should be correct also.  It shows which Arduino pins are connected to which pins on the DS3231 RTC board, on the ULN2003A stepper driver board, as well as other hardware including the frontlight LED, the piezo buzzer, and the alarm microswitch.

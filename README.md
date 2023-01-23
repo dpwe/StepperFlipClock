@@ -40,3 +40,6 @@ In addition to the GE 7-4305 illustrated at the top of this page, I've also perf
 
 <img alt="Copal - assembled" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_assembled.jpg" width=300 height=200> <img alt="Copal - back off" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_backoff.jpg" width=300 height=200> <img alt="Copal - mechanism" src="https://raw.githubusercontent.com/dpwe/StepperFlipClock/main/pics/copal_mechanism.jpg" width=300 height=200>
 
+# More Clock Adventures
+
+See my [Clock Blog](https://dpwe.github.io/arduinoclocks/)
